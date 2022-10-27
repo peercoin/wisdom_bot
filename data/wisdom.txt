@@ -56,8 +56,7 @@ The PoW component of Peercoin is made to taper off as the #efficiency of compute
 Every transaction ever performed is stored redundantly as an #immutable record on every full node. #transparency
 Cryptocurrency is pseudo-anonymous. Many find that scary, but the battle of virtual #psuedoanonymity is #nuanced.
 The agility of our love can help overcome obstacles that would otherwise be insurmountable. #hope  Wait, what am I supposed to be talking about again?
-Peercoin is basically #Chronos.
-A #stitch in time saves nine Peercoin.
+Peercoin is basically #Chronos, #Aion, and Father #Time wrapped up in one.
 Get me some of that green green. #efficient #money
 Crypto is always greener on the other side of the proof. #proofofstake
 I feel like I should be distributing leaflets. #prosthelytizing #leaf
@@ -65,7 +64,6 @@ Put that in your pipe and smoke it. #GreenCrypto
 In many coins, staking is privilege of those who hold the premine. But not with Peercoin! #proofofstake #staking
 A #block contains transactions including a coinbase and a #coinstake. Peercoin added the coinstake as a special transaction that overrides the proof of work coinbase and is validated by proof of stake.
 Peercoin Charts (peercoinexplorer.net/charts) is a very good resource for checking out the history of performance for key network metrics such as inflation or difficulty.
-Like #Hoggle from David Bowie's #Labyrinth, Peercoin denizens have seen many a crypto come and go and may seem cynical and grumpy, but can be very loyal and helpful.  And they like shiny things just as much as the next dwarf.
 Peercoin has an #algorithmic inflation defined with a ~2% annualized target in mind. Fluctuations are determined by network participation, rather than any centralized entity.
 The community surrounding Peercoin has evolved over time, but has always remained connected with its founding people and principles.
 Peercoin is the energy #efficient alternative to Bitcoin, and always has been.
@@ -73,3 +71,20 @@ Peercoin token allocation: Team: 0% Foundation: 0% Investors: 0% Advisors: 0% Ec
 For better or for worse, Peercoin's PoS difficulty is a more sophisticated #organism than the gut reactions of the hash market.
 Peercoin is the only blockchain project except Bitcoin which is developed and maintained by a second generation team. Original team which has started the project is long gone and new core group of people has organically grew out of the community.
 There is no minimum amount of coins required to mint, one can mint with 1000 PPC or with 15 PPC or 3.5 PPC. You can also mint with 0.85 PPC. However, It can take several years of continuous node operation to find a block with under 1 ppc.
+Stake: Coin that is leveraged to find blocks in a proof of stake network. Peercoin uses coin-age, or coins held over time, that is consumed in order to securely build the blockchain chronology. Coins are not consumed in this process, only their #coinage.
+Block Reward: When a new block is found it includes a special #coinbase transaction that creates new coin. In Peercoin, block rewards can come from either proof of work or proof of stake blocks.
+Minting: The act of making a block via proof of stake. While in Peercoin minting and staking are synonymous, in some networks minting is delegated to a representative, and most of the coinholders themselves are merely staking, not minting.
+Mining: The act of making a block via proof of work. Peercoin uses a sha-256 hashing algorithm, which is the same one used by Bitcoin. This means that the same ASIC hardware used on Bitcoin can be used on Peercoin.
+Difficulty: The threshold for a valid block hash. When blocks come too fast or too slow, this parameter adjusts to regulate the block speed. The difficulty thereby measures the approximate hashrate of the network on average.
+Target Spacing: The amount of time between blocks on average. The difficulty adjusts to keep the frequency of blocks close to the target. Peercoin has a 10 minute PoS block spacing and a 1 hour PoW block spacing, for a total spacing of 8.57 minutes.
+Confirmations: To avoid double spend attacks, it is customary to wait a certain number of blocks after a transaction is included in the chain. Peercoin specifies 6 confirmations before a transaction should be trusted as final.
+Blockchain: a recursive chronological record taken through time and secured by a distributed consensus process. New information is added in discrete blocks that include a hash of all the previous blocks to make a tamper-proof record.
+Transaction: A cluster of information including inputs, outputs, header information, and OP codes if there are any. Inputs are references to outputs from previous transactions that are being consumed. Outputs have an amount and an address where coins are sent.
+Address: A unique string of characters that can be derived from a private key. The address is a hash of the public key, so ownership can be easily verified without giving away the secret. knowing the private key is equivalent to owning the address.
+Cryptography: Asymmetric encryption allows for easy validation of public information generated from a secret while figuring out the secret from the generated information is very hard. This is the basis of public/private key pairs and cryptocurrency addresses.
+Algorithmic Inflation: Cryptocurrencies like Peercoin introduce new coins provably through the block reward, depending on the transaction validation process, the difficulty, and/or the block height. In this way, the inflation is determined by math rather than a central body.
+Signature: a private key is a form of identity and can produce a unique signatuee that can be quickly validated. Information, such as a message or a transaction, can also be signed to prove that a party was privy to the information.
+Hashrate: the number of valid block hashes produced per unit time by a network, whether or not they achieve the difficulty theshold to produce a block. In Peercoin, the hashrate is limited to once per second per output and the coinage consumed is used to determine block validity.
+Blockheight: The number of blocks preceding a specified block. Can also refer to the total number of blocks in a chain. If there are two valid blocks produced at the same block height, one must be orphaned to continue the chain.
+Orphan: A valid block that none-the-less is excluded from the chain. A block is orphaned if another block is found at the same blockheight and is chosen for continuation of the chain, instead of the orphaned block.
+Transaction Fee: A fee is paid per kilobyte of data to include a transaction in a block. While in many coins the fee is given to the finder of the block, in Peercoin the fee is destroyed which prevents spam and keeps the Peercoin chain compact.
