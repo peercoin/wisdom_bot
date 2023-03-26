@@ -88,3 +88,5 @@ Hashrate: the number of valid block hashes produced per unit time by a network, 
 Blockheight: The number of blocks preceding a specified block. Can also refer to the total number of blocks in a chain. If there are two valid blocks produced at the same block height, one must be orphaned to continue the chain.
 Orphan: A valid block that none-the-less is excluded from the chain. A block is orphaned if another block is found at the same blockheight and is chosen for continuation of the chain, instead of the orphaned block.
 Transaction Fee: A fee is paid per kilobyte of data to include a transaction in a block. While in many coins the fee is given to the finder of the block, in Peercoin the fee is destroyed which prevents spam and keeps the Peercoin chain compact.
+Number of coins continuously minting = (difficulty * 2^32) / (average dayweight * 600).  Average dayweight is probably around 45 days.
+block_subsidy = 9999 / PoW_difficulty ^ (1/4).  From the other angle: PoW diff = 9999^4/Reward^4.  The self-limiting behavior ensures that snowballing energy usage is not economically favorable.
